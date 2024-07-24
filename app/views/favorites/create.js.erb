@@ -1,0 +1,3 @@
+　console.log("create.js.erb読み込んでます");
+$('#favorite_buttons_<%= @book.id %>').html("<%= j(render "favorites/favorite-btn", book: @book) %>");
+  console.log("読み終わった")
